@@ -1,0 +1,34 @@
+#departments{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+}
+
+.department{
+
+    padding: 30px;
+    margin: 10px;
+    border: 1px solid black;
+
+}
+
+#quest{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.question {
+    display: block;
+    flex: 0;
+
+}
+
+.newsImage{
+    display: flex;
+    float: left;
+    align-items: flex-end;
+}
