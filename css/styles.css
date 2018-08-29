@@ -27,8 +27,27 @@
 
 }
 
-.newsImage{
+.newsPage{
     display: flex;
-    float: left;
+}
+
+.newsImage{
+
+
     align-items: flex-end;
 }
+
+#viewTopics{
+    padding: 10px;
+    display: flex;
+}
+
+#viewTasks{
+    padding: 10px;
+    display: flex;
+}
+
+.page.hidden{
+    display: none!important;
+}
+
